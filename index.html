@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile card</title>
+</head>
+<body>
+    <h1 id="title"My profile Card</h1>
+        <p>
+            This Page shows my <strong>details</strong>
+            It was built with <em>HTML</em>and,mark>Javascript</mark>
+        </p>
+        <hr>
+        <h2>My Sbjects</h2>
+        <p id="details"></h2>
+            <ul>
+                <li>Citizenship</li>
+                <li>Javascript</li>
+                <li>Business</li>
+                <h2>My Hobbeies</h2>
+            <ul>
+            <li>sleeping</li>
+            <li>Movies</li>
+            <li>Music</li>
+            <h2> My results</h2>
+            <p id="marks"></p>
+                <p id="results"></p>
+            <script>
+                var name ="Kenia";
+                let age ="16";
+                const school ="APACOPE";
+                console.log(name);
+                console.log(age);
+                console.log(school);
+                document.getElementById("details").innerHTML =age
+                "Name: <strong>" + name + "</strong><br>"+
+                "Age: " + age;
+                let citizenship = 90;
+                let Javascript = 80;
+                let Business = 94;
+                document.getElementById("marks").innerHTML
+               "Citizenship: " + citizenship + "</br>" +
+               "Javascript: " + javascript + "</br>" +
+               "Business: " + business;
+               let total = citizenship + javascript + business;
+               let average = total /3;
+               document.getElementById("results").innerHTML 
+               "Total Marks: " + total + "<br>" +
+               "Average Marks: " + average.toFixed (2);
+               console.log(total);
+               console.log(average);
+               </script>
+               </ul>
+               </ul>
+            </body>
+            </html>
